@@ -24,9 +24,9 @@ function isIsogram(str) {
         str = str.toLowerCase();
     }
     let array = str.split('');
-    var sortedArr = array.slice().sort();
+    let sortedArr = array.slice().sort();
 
-    for (var i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         if (sortedArr[i + 1] == sortedArr[i]) {
             return false;
         }
