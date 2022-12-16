@@ -21,3 +21,6 @@ function isIsogram(str){
     return !/(\w).*\1/i.test(str)
 }
 
+function testEven(n) {
+    return n % 2 === 0;
+}
