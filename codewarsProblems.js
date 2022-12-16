@@ -17,20 +17,7 @@ function firstNonConsecutive (arr) {
 }
 
 
-function isIsogram(str) {
-    if (str.isEmpty) {
-        return true;
-    } else {
-        str = str.toLowerCase();
-    }
-    let array = str.split('');
-    let sortedArr = array.slice().sort();
-
-    for (let i = 0; i < array.length; i++) {
-        if (sortedArr[i + 1] == sortedArr[i]) {
-            return false;
-        }
-    }
-    //else return true
-    return true;
+function isIsogram(str){
+    return !/(\w).*\1/i.test(str)
 }
+
