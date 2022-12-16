@@ -8,3 +8,4 @@ function calculateYears(principal, interest, tax, desired) {
     return year
 }
 
+const doubleChar = (str) => str.split("").map(c => c + c).join("");
