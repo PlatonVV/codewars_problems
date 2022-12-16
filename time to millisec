@@ -1,0 +1,11 @@
+1. function past(h, m, s){
+
+const cH = h * 60 * 60 * 1000;
+
+const cM = m * 60 * 1000;
+
+const cS = s * 1000;
+
+return cH + cM + cS;
+
+}
