@@ -24,3 +24,7 @@ function isIsogram(str){
 function testEven(n) {
     return n % 2 === 0;
 }
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
